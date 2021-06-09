@@ -11,6 +11,9 @@ public class Mahasiswa {
         String nama;
         Date tanggalLahir;
 
+public Mahasiswa() {
+        }
+
 public Mahasiswa(String npm, String nama, Date tanggalLahir) {
        this.npm = npm;
        this.nama = nama;
