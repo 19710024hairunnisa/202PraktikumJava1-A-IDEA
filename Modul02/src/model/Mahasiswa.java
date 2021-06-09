@@ -11,6 +11,12 @@ public class Mahasiswa {
         String nama;
         Date tanggalLahir;
 
+public Mahasiswa(String npm, String nama, Date tanggalLahir) {
+       this.npm = npm;
+       this.nama = nama;
+       this.tanggalLahir = tanggalLahir;
+}
+
         void tampilkanAtribut() {
                 String polaTanggal = "dd-MM-yyyy";
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat(polaTanggal);
