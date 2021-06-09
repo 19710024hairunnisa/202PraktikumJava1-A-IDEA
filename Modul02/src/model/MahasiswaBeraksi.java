@@ -30,6 +30,7 @@ public class MahasiswaBeraksi {
 
         mahasiswa.tampilkanAtribut();
         mahasiswa.menyapa();
+        System.out.println("Usiaku : " + mahasiswa.hitungUsia() + " tahun");
         Mahasiswa mahasiswa3 = new Mahasiswa();
     }
 
